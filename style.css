@@ -2,30 +2,22 @@ body{
     margin: auto;
     width: 50%;
 }
+.container{
+    border: 1 px solid black;
+    width: 1000px;
+   
+    
+}
 
-.contain{
+.logo{
     background-image: url(../img/pattern.png);
     height: 150px;
-    width: 900px;
+    width: 1000px;
     background-color: aqua;
-    position: relative;
 }
 
-#img{
+#logo2{
     height: 200px;
-    width: 300px;
-}
-
-.text3{
-    color: grey;
-}
-
-.text4{
-    color: grey;
-    font-size: 15px;
-}
-
-.immage{
-    height: 300px;
-    width: 430px;
-}
+    width: 200px;
+    
+}    
