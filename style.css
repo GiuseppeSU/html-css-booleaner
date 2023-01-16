@@ -51,6 +51,18 @@ body{
 }
 
 .table{
-    padding: 10px 10px;
+    
     margin: auto;
+    background-color: aqua;
+    
+}
+
+th{
+    color: white;
+    background-color: blue;
+    
+}
+
+#riga{
+    background-color: white;
 }
