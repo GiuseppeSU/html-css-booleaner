@@ -3,10 +3,26 @@ body{
     width: 50%;
 }
 
-.text{
+.contain{
     background-image: url(../img/pattern.png);
     height: 150px;
     width: 900px;
     background-color: aqua;
+    position: relative;
+}
 
+.text{
+    color: white;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+
+.text3{
+    color: grey;
+}
+
+.text4{
+    color: grey;
+    font-size: 15px;
 }
