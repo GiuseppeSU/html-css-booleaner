@@ -49,3 +49,8 @@ body{
 #yellow{
     background-color: yellow;
 }
+
+.table{
+    padding: 10px 10px;
+    margin: auto;
+}
