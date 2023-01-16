@@ -1,68 +1,88 @@
-body{
+body {
     margin: auto;
     width: 50%;
 }
-.container{
+
+.container {
     border: 1 px solid black;
     width: 1000px;
-   
-    
+
+
 }
 
-.logo{
+.logo {
     background-image: url(../img/pattern.png);
     height: 150px;
     width: 1000px;
     background-color: aqua;
 }
 
-#logo2{
+#logo2 {
     height: 200px;
     width: 200px;
-    
+
 }
 
-.text{
+.text {
     font-size: 40px;
     font-weight: bold;
 }
 
-.text2{
+.text2 {
     color: grey;
 }
 
-.link{color: aqua;
+.link {
+    color: aqua;
 }
 
-.text3{
+.text3 {
     color: grey;
     font-size: 15px;
 
 }
 
-.img{
+.img {
     margin-top: 20px;
     height: 400px;
     width: 450px;
 }
 
-#yellow{
+#yellow {
     background-color: yellow;
 }
 
-.table{
-    
+.table {
+
     margin: auto;
     background-color: aqua;
-    
+
 }
 
-th{
+th {
     color: white;
     background-color: blue;
+
+}
+
+#riga {
+    background-color: white;
+}
+
+h3 {
+    color: grey;
+}
+
+.img2 {
+    
+    width: 300px;
+    height: 300px;
+    background-repeat: no-repeat;
     
 }
 
-#riga{
-    background-color: white;
+.lorem {
+    color: white;
+    font-size: 25px;
+
 }
