@@ -1,26 +1,50 @@
-body {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+main,
+footer {
     margin: auto;
-    width: 50%;
+    width: 80%;
+}
+
+header {
+    background-image: url(../img/pattern.png);
+    height: 100px;
+    background-color: aqua;
+
 }
 
 .container {
-    border: 1 px solid black;
-    width: 1000px;
-
+    margin: auto;
+    width: 80%;
 
 }
 
-.logo {
-    background-image: url(../img/pattern.png);
-    height: 150px;
-    width: 1000px;
+#logo {
+    margin-top: 20px;
+    height: 50px;
+    background-size: 30%;
+
+}
+
+.list-item {
+    margin-left: 15px;
+}
+
+#trow{
     background-color: aqua;
+    padding: 50px 0;
+    border-spacing: none;
 }
 
-#logo2 {
-    height: 200px;
-    width: 200px;
-
+tr > td{
+    
+    padding: 30px 0;
+    
 }
 
 .text {
@@ -52,11 +76,15 @@ body {
     background-color: yellow;
 }
 
+p {
+    margin-top: 20px;
+}
+
 .table {
-
-    margin: auto;
-    background-color: aqua;
-
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0px 0px;
+    
 }
 
 th {
@@ -82,6 +110,9 @@ h3 {
 
 }
 
+.testo{
+    margin-top: 20px;
+}
 .lorem {
     color: white;
     font-size: 25px;
